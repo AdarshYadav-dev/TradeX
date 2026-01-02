@@ -3,11 +3,11 @@ import React from 'react'
 function stats() {
     return (
         <div className='container p-3'>
-            <div className='row p-5'>
+            <div className='row p-5 '>
                 <div className='col-6 p-5'>
-                    <h1 className='fs-2'>Trust with confidence</h1>
+                    <h1 className='fs-2 mb-5'>Trust with confidence</h1>
 
-                    <h2 className='fs-4 mb-5'>Customer-first always</h2>
+                    <h2 className='fs-4 '>Customer-first always</h2>
                     <p className='text-muted'>That's why 1.3+ crore Customer Trust platform with $ 3.5+ lakh crore worth of equity investments</p>
 
                     <h2 className='fs-4'>No Spam or grimmicks</h2>
