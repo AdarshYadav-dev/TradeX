@@ -1,11 +1,14 @@
 import React from 'react'
+import Hero from './Hero';
+import Team from './Team';
 
-function AboutPage() {
+function PricingPage() {
     return (
-        <div className="AboutPage-section">
-            <h2>About Us</h2>
-        </div>
+        <>
+            <Hero />
+            <Team />
+        </>
     )
 }
 
-export default AboutPage
+export default PricingPage

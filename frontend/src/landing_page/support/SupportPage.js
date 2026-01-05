@@ -1,11 +1,18 @@
-import React from "react";
+import React from 'react'
+// import Navbar from '../Navbar'
+import Hero from '../home/Hero'
+import CreateTicket from './CreateTicket'
+// import Hero from '../home/Hero'
 
-function SupportPage() {
+const SupportPage = () => {
   return (
-    <div className="supportpage-section">
-      <h2>Support Page</h2>
-    </div>
-  );
+    <>
+      {/* <Navbar /> */}
+      <Hero />
+      <CreateTicket />
+      {/* <Footer /> */}
+    </>
+  )
 }
 
-export default SupportPage;
+export default SupportPage
