@@ -1,5 +1,6 @@
 import React from "react";
-import Hero from "../home/Hero";
+// import Hero from "../pric/Hero";
+import Hero from "./Hero"
 import OpenAccount from "../OpenAccount";
 import Brokerage from './Brokerage'
 
