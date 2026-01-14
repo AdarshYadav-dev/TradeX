@@ -1,6 +1,6 @@
 import React from 'react'
 // import Navbar from '../Navbar'
-import Hero from '../home/Hero'
+import Hero from './Hero'
 import CreateTicket from './CreateTicket'
 // import Hero from '../home/Hero'
 
