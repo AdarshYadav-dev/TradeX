@@ -1,18 +1,18 @@
-import React from 'react'
-// import Navbar from '../Navbar'
-import Hero from './Hero'
-import CreateTicket from './CreateTicket'
-// import Hero from '../home/Hero'
+import React from "react";
 
-const SupportPage = () => {
+import Hero from "./Hero";
+import CreateTicket from "./CreateTicket";
+
+import Navbar from "../Navbar";
+import Footer from "../Footer";
+
+function PricingPage() {
   return (
     <>
-      {/* <Navbar /> */}
       <Hero />
       <CreateTicket />
-      {/* <Footer /> */}
     </>
-  )
+  );
 }
 
-export default SupportPage
+export default PricingPage;
